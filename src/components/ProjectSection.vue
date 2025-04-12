@@ -33,6 +33,11 @@
 </template>
 
 <script>
+// Import images directly
+import residentialImage from '../assets/residential-project.jpg'
+import waterProjectImage from '../assets/water-project.jpg'
+import complexImage from '../assets/complex.jpg'
+
 export default {
   name: 'ProjectSection',
   data() {
@@ -42,18 +47,17 @@ export default {
         {
           title: 'Luxury Residential Home',
           description: 'A modern residential building featuring elegant brick facade and cream exterior finishes.',
-          image: '/src/assets/residential-project.jpg'
+          image: residentialImage
         },
         {
           title: 'Community Water Project',
           description: 'Water borehole drilling project in Kufana, Kaduna, Nigeria providing essential water access to the local community.',
-          image: '/src/assets/water-project.jpg'
+          image: waterProjectImage
         },
-        
         {
-          title: ' Residential Complex',
+          title: 'Residential Complex',
           description: 'High-end residential apartments with premium amenities.',
-          image: '/src/assets/complex.jpg'
+          image: complexImage
         }
       ]
     }
