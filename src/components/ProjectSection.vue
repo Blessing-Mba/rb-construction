@@ -42,18 +42,18 @@ export default {
         {
           title: 'Luxury Residential Home',
           description: 'A modern residential building featuring elegant brick facade and cream exterior finishes.',
-          image: '../src/assets/residential-project.jpg'
+          image: '/src/assets/residential-project.jpg'
         },
         {
           title: 'Community Water Project',
           description: 'Water borehole drilling project in Kufana, Kaduna, Nigeria providing essential water access to the local community.',
-          image: '../src/assets/water-project.jpg'
+          image: '/src/assets/water-project.jpg'
         },
         
         {
           title: ' Residential Complex',
           description: 'High-end residential apartments with premium amenities.',
-          image: '../src/assets/fact.jpg'
+          image: '/src/assets/complex.jpg'
         }
       ]
     }
