@@ -26,7 +26,9 @@
         <div class="footer-contact">
           <h4>Contact Us</h4>
           <p><i class="fas fa-map-marker-alt"></i> Gwarinpa, Abuja, Nigeria</p>
+          <br>
           <p><i class="fas fa-phone"></i> +234 901 458 1204</p>
+          <br>
           <p><i class="fas fa-envelope"></i> rodsnbars@gmail.com</p>
         </div>
        
