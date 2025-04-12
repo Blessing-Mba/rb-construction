@@ -4,7 +4,7 @@
         <h2>Building Landmarks</h2>
         <div class="about-content">
           <div class="about-text">
-            <p>With over 6 years of experience, Rods & Bars has been at the forefront of delivering exceptional construction services. Our commitment to quality, safety, and customer satisfaction sets us apart in the industry.</p>
+            <p>With over 6 years of experience, Rods & Bars has been at the forefront of delivering exceptional construction services. Our commitment to structural integrity, safety, and customer satisfaction sets us apart in the industry.</p>
           </div>
           
          

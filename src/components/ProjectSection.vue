@@ -45,7 +45,7 @@ export default {
       currentSlide: 0,
       projects: [
         {
-          title: 'Luxury Residential Home',
+          title: 'Residential Home',
           description: 'A modern residential building featuring elegant brick facade and cream exterior finishes.',
           image: residentialImage
         },
