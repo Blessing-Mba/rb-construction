@@ -3,8 +3,15 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-info">
-          <h4>RB Construction</h4>
-          <p>Building excellence since 2017. We specialize in residential and commercial construction with a focus on quality and customer satisfaction.</p>
+          <h4>Rods & Bars Ltd</h4>
+          <p>Building excellence since 2019.</p>
+          
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/rodsnbars?s=21" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/rodsnbars?igsh=MW8wbTN6Y2prcDUwZg==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
         </div>
         <div class="footer-links">
           <h4>Quick Links</h4>
@@ -18,22 +25,14 @@
         </div>
         <div class="footer-contact">
           <h4>Contact Us</h4>
-          <p><i class="fas fa-map-marker-alt"></i> 123 Construction Ave, Building City</p>
-          <p><i class="fas fa-phone"></i> (555) 123-4567</p>
-          <p><i class="fas fa-envelope"></i> info@rbconstruction.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Gwarinpa, Abuja, Nigeria</p>
+          <p><i class="fas fa-phone"></i> +234 901 458 1204</p>
+          <p><i class="fas fa-envelope"></i> rodsnbars@gmail.com</p>
         </div>
-        <div class="footer-social">
-          <h4>Follow Us</h4>
-          <div class="social-icons">
-            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
+       
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2023 RB Construction. All rights reserved.</p>
+        <p>&copy;  2025 Rods & Bars Ltd. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -44,3 +43,39 @@ export default {
   name: 'FooterSection'
 }
 </script>
+<style scoped>
+ul{
+  list-style: none;
+}
+.social-icons{
+  margin-top: 1rem;
+}
+
+/* Add General Sans font to footer */
+.footer {
+  font-family: 'General Sans', sans-serif;
+}
+
+/* Add spacing between social icons */
+.social-icons a {
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+/* Remove underline from Quick Links heading */
+.footer-links h4::after,
+.footer-info h4::after,
+.footer-contact h4::after {
+  display: none !important;
+}
+
+/* Remove underline from footer links */
+.footer-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+</style>

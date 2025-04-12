@@ -1,7 +1,7 @@
 <template>
     <section id="services" class="services animate-section">
       <div class="container">
-        <h2 class="animate-item">WHAT WE DO</h2>
+        <h2 class="animate-item section-title">WHAT WE DO</h2>
         <div class="services-grid">
           <div class="service-card animate-item" v-for="(service, index) in services" :key="index">
             <div class="service-bar"></div>
@@ -45,9 +45,27 @@
             title: 'General Contracting',
             description: 'Full-service general contracting for construction projects of all sizes.'
           },
-          
+          {
+            icon: 'fas fa-wrench',
+            title: 'Water and Power Systems',
+            description: 'Reliable water and power systems, including efficient water distribution, energy generation, and custom infrastructure installations.'
+          }
         ]
       }
     }
   }
   </script>
+
+  <style scoped>
+  .section-title {
+    text-align: left;
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 27px;
+  }
+  
+  /* Remove any red underline */
+  .section-title::after {
+    display: none;
+  }
+  </style>

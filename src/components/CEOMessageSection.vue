@@ -13,10 +13,10 @@
                and prompt conveyance make us stand out in the frontlines;
             </p>
             <br>
-            <p>Truly giving strength to your will !</p>
+            <p>Truly <b>giving strength to your will !</b></p>
             <div class="ceo-signature">
-              <h4>John Smith</h4>
-              <p>Founder & CEO</p>
+              <h4>Obi C.E</h4>
+              <p>Chief Executive Officer</p>
             </div>
           </div>
         </div>
@@ -30,3 +30,13 @@ export default {
   name: 'CEOMessageSection'
 }
 </script>
+
+<style scoped>
+.ceo-message h2 {
+  position: relative;
+}
+
+.ceo-message h2::after {
+  display: none !important;
+}
+</style>

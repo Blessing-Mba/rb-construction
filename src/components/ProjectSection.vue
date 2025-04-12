@@ -40,19 +40,20 @@ export default {
       currentSlide: 0,
       projects: [
         {
-          title: 'Modern Office Building',
-          description: 'A state-of-the-art office complex with sustainable design features.',
-          image: './assets/project1.jpg'
+          title: 'Luxury Residential Home',
+          description: 'A modern residential building featuring elegant brick facade and cream exterior finishes.',
+          image: '../src/assets/residential-project.jpg'
         },
         {
-          title: 'Luxury Residential Complex',
+          title: 'Community Water Project',
+          description: 'Water borehole drilling project in Kufana, Kaduna, Nigeria providing essential water access to the local community.',
+          image: '../src/assets/water-project.jpg'
+        },
+        
+        {
+          title: ' Residential Complex',
           description: 'High-end residential apartments with premium amenities.',
-          image: './assets/project2.jpg'
-        },
-        {
-          title: 'Commercial Retail Center',
-          description: 'A shopping center with innovative architecture and customer-friendly layout.',
-          image: './assets/project3.jpg'
+          image: '../src/assets/fact.jpg'
         }
       ]
     }
@@ -78,6 +79,42 @@ export default {
 </script>
 
 <style scoped>
+.projects h2 {
+  position: relative;
+}
+
+.projects h2::after {
+  display: none !important;
+}
+
+.carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-slide {
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  padding: 20px;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.carousel-caption {
+  background-color: bisque;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
 .item {
   margin-top: 2rem;
   display: flex;

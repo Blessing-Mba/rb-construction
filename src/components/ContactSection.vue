@@ -4,10 +4,10 @@
       <div class="contact-container">
         <div class="contact-wrapper">
           <h2 class="animate-item">Ready to Start Your Project?</h2>
-          <p class="animate-item">Contact us today for a free consultation and quote</p>
-          <a href="mailto:info@rbconstruction.com" class="work-with-us-btn animate-item">
+      
+          <a href="mailto:rodsnbars@gmail.com" class="work-with-us-btn animate-item">
             <i class="fas fa-envelope"></i>
-            Get In Touch
+            Email Us
           </a>
         </div>
        
@@ -21,3 +21,32 @@ export default {
   name: 'ContactSection'
 }
 </script>
+
+<style scoped>
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-wrapper h2 {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+/* Remove red underline */
+.contact-wrapper h2::after {
+  display: none;
+}
+
+.work-with-us-btn {
+  display: inline-block;
+  margin-top: 20px;
+}
+</style>

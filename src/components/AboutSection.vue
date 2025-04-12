@@ -1,29 +1,13 @@
 <template>
     <section id="about" class="about animate-section">
       <div class="container">
-        <h2>About Us</h2>
+        <h2>Building Landmarks</h2>
         <div class="about-content">
           <div class="about-text">
             <p>With over 6 years of experience, Rods & Bars has been at the forefront of delivering exceptional construction services. Our commitment to quality, safety, and customer satisfaction sets us apart in the industry.</p>
-            <div class="about-image-grid">
-              <img src="@/assets/IMG-20250318-WA0064.jpg" alt="Construction Site 1">
-              <img src="@/assets/IMG-20250318-WA0065.jpg" alt="Construction Site 2">
-            </div>
           </div>
-          <div class="about-stats">
-            <div class="stat">
-              <h3>6+</h3>
-              <p>Years Experience</p>
-            </div>
-            <div class="stat">
-              <h3>87+</h3>
-              <p>Clients</p>
-            </div>
-            <div class="stat">
-              <h3>100%</h3>
-              <p>Client Satisfaction</p>
-            </div>
-          </div>
+          
+         
         </div>
       </div>
     </section>
@@ -34,3 +18,31 @@
     name: 'AboutSection'
   }
   </script>
+
+  <style scoped>
+  .about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-text p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    font-family: 'General Sans', sans-serif;
+  }
+
+  .about h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+  }
+  
+  /* This will override any other styles that might be adding the red underline */
+  .about h2::after {
+    display: none;
+  }
+  </style>
