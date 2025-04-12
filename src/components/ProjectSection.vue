@@ -119,6 +119,28 @@ export default {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
+/* Mobile styles for carousel caption */
+@media (max-width: 768px) {
+  .carousel-caption {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .carousel-caption p {
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+  
+  .carousel-slide img {
+    height: 300px;
+  }
+}
+
 .item {
   margin-top: 2rem;
   display: flex;
