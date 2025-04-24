@@ -55,7 +55,8 @@ ul{
 
 /* Add General Sans font to footer */
 .footer {
-  font-family: 'General Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 /* Add spacing between social icons */
