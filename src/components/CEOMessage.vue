@@ -2,7 +2,7 @@
     <section id="ceo-message" class="ceo-message animate-section">
       <div class="ceo-container">
         <div class="ceo-content">
-          <h2>A Message From Our Director</h2>
+          <h2>A Message From Our CEO</h2>
           <div class="ceo-quote">
             <i class="fas fa-quote-left quote-icon"></i>
             <p>At Rods & Bars, we believe in building more than just structures 
